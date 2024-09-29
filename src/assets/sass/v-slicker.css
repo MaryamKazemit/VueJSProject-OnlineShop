@@ -1,0 +1,23 @@
+.slick-next:before {
+  content: "" !important;
+  font-family: "Material Icons" !important;
+  color: #fff;
+  text-shadow: 0 2px 4px #616161;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.slick-prev::before {
+  content: "" !important;
+  font-family: "Material Icons" !important;
+  color: #fff;
+  text-shadow: 0 2px 4px #616161;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn {
+  --bs-btn-border-radius: 1.5rem!important;
+}/*# sourceMappingURL=v-slicker.css.map */

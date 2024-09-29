@@ -1,0 +1,335 @@
+@font-face {
+  font-family: IRANYekan1;
+  src: url(../fonts/a80f71ff.woff2) format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: IRANYekan2;
+  src: url(../fonts/492984b8.woff) format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: IRANYekan3;
+  src: url(../fonts/fe12f13a.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: IRANYekan4;
+  src: url(../fonts/1fdcadec.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+.font-iran {
+  font-family: IRANYekan2, sans-serif;
+}
+
+.font-iran-mid-p {
+  font-family: IRANYekan1, sans-serif;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+
+.font-iran-mid {
+  font-family: IRANYekan1, sans-serif;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+
+.font-iran-sm {
+  font-family: IRANYekan1, sans-serif;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}
+
+.font-iran-vsm {
+  font-family: IRANYekan1, sans-serif;
+  font-size: 9px !important;
+  font-weight: 700 !important;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropstart .dropdown-toggle::before {
+  display: none;
+}
+
+#horizontalFlip {
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.material-icons .material-icons-outlined {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.material-icons .material-icons-outlined:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.fs-med {
+  font-size: medium !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+  left: auto !important;
+}
+
+.dropdown-item:hover {
+  color: #e90f46 !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid #333 !important;
+  background-color: transparent !important;
+}
+
+.form-control {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+}
+
+.w-170 {
+  width: 200% !important;
+}
+
+.tooltip-inner {
+  font-family: IRANYekan1, sans-serif;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+}
+
+.myBtn {
+  color: #333;
+  background-color: white;
+  border: 1px solid #333;
+}
+.myBtn:hover {
+  color: #333;
+  background-color: white;
+  border-color: #e90f46;
+}
+.myBtn:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  color: #333;
+  background-color: white;
+}
+
+.slick-dots li button:before {
+  font-size: 20px !important;
+  top: -36px !important;
+  right: -36px !important;
+  left: -36px !important;
+  bottom: -36px !important;
+}
+
+.slick-next {
+  right: 25px !important;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 25px !important;
+  z-index: 1;
+}
+
+.slick-next:before {
+  content: "arrow_forward_ios" !important;
+  font-family: "Material Icons" !important;
+  color: #fff;
+  text-shadow: 0 2px 4px #616161;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.slick-prev::before {
+  content: "arrow_back_ios" !important;
+  font-family: "Material Icons" !important;
+  color: #fff;
+  text-shadow: 0 2px 4px #616161;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.coloredRateStar {
+  color: #ffba00;
+}
+
+.over-top {
+  vertical-align: 15px;
+  margin-right: -15px;
+}
+
+.test:after {
+  content: "";
+  display: block;
+  width: 100px;
+  position: relative;
+  bottom: -10px;
+  border-bottom: 3px solid #e90f46;
+}
+
+.test2:after {
+  content: "";
+  display: block;
+  width: 120px;
+  position: relative;
+  bottom: -10px;
+  border-bottom: 3px solid #e90f46;
+}
+
+.mt-6 {
+  margin-top: 3rem;
+}
+
+.mr-100 {
+  margin-right: -100px;
+}
+
+.text-decoration-line-through {
+  -webkit-text-decoration-color: gray !important;
+          text-decoration-color: gray !important;
+}
+
+.date-badge {
+  padding: 10px 15px;
+  margin-top: -25px;
+  margin-left: 180px;
+}
+
+.badge-new-fontSize {
+  --bs-badge-font-size: .7rem!important;
+}
+
+.ml-25 {
+  margin-top: -8px !important;
+  margin-right: -8px !important;
+}
+
+.fs-30 {
+  font-size: 30px !important;
+}
+
+.cusor-pointer {
+  cursor: default !important;
+}
+
+.cursor-p {
+  cursor: pointer !important;
+}
+
+.z-1 {
+  z-index: 1 !important;
+}
+
+.z-0 {
+  z-index: 0 !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: auto !important;
+  left: 0 !important;
+}
+
+.l-auto {
+  left: auto !important;
+}
+
+.cart-list-theme {
+  overflow-y: scroll;
+  direction: ltr;
+  max-height: 180px;
+}
+
+.w-100p {
+  width: 100px;
+}
+
+.inherit-color:hover {
+  color: inherit !important;
+}
+
+.w-60 {
+  width: 60px;
+}
+
+.delete {
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  text-align: center;
+  font-size: 10px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: #e90f46;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  float: right;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+}
+
+.pink-color {
+  color: #6c757d !important;
+}
+.pink-color:hover {
+  color: #e90f46 !important;
+}
+
+.my-modal:hover {
+  border: 1px solid transparent;
+}
+
+.form-select {
+  background-position: left 0.75rem center;
+}
+
+.mlr-50 {
+  margin-right: 50% !important;
+  margin-left: 50% !important;
+}
+
+input[type=search] {
+  margin-bottom: 1.5rem;
+}
+
+/*style of slider nav*/
+.swiper-button-prev::after {
+  content: "arrow_back_ios" !important;
+  font-family: "Material Icons" !important;
+  color: #fff !important;
+  text-shadow: 0 2px 4px #616161 !important;
+  transition: all 0.3s ease-in-out !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+
+.swiper-button-next::after {
+  content: "arrow_forward_ios" !important;
+  font-family: "Material Icons" !important;
+  color: #fff !important;
+  text-shadow: 0 2px 4px #616161 !important;
+  transition: all 0.3s ease-in-out !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+
+.selection-none {
+  -webkit-user-select: none !important;
+     -moz-user-select: none !important;
+      -ms-user-select: none !important;
+          user-select: none !important;
+}/*# sourceMappingURL=main.css.map */
